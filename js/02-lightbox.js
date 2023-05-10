@@ -23,7 +23,7 @@ const itemMarkup = createGalleryContainerMarkup(galleryItems);
 galleryContainer.insertAdjacentHTML("beforeend", itemMarkup);
 console.log(galleryItems);
 
-// Подключение библиотеки
+// Подключение библиотеки SimpleLightbox
 
 var lightbox = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
