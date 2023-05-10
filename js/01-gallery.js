@@ -32,7 +32,7 @@ galleryContainer.addEventListener("click", (event) => {
   onOpenModal(largeImage);
 });
 
-// Подключение библиотеки
+// Подключение библиотеки basicLightbox
 
 function onOpenModal(largeImage) {
   instance = basicLightbox.create(`
